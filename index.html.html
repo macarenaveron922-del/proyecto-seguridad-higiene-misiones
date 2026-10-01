@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Accidentabilidad laboral en la industria de Misiones y sistema de ART (2021-2025)</title>
+<meta name="description" content="Trabajo Integrador de Seguridad e Higiene Laboral: análisis de la accidentabilidad en la industria de Misiones y su relación con el sistema de ART (2021-2025).">
+<style>
+/* ===== Paleta (editar aquí) ===== */
+:root{--navy:#0b2545;--blue:#13406e;--cel:#1a9bc0;--verde:#2e8b6a;--gris:#f1f4f8;--borde:#d5dce6;--txt:#1d2733;--ok:#e6f4ee;--warn:#fff6e0;--bad:#fdeaea}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--txt);background:#fff}
+header{position:sticky;top:0;z-index:10;background:var(--navy);box-shadow:0 2px 6px #0003}
+nav{display:flex;gap:2px;overflow-x:auto;padding:0 8px;max-width:1200px;margin:auto}
+nav a{color:#cfe3f1;text-decoration:none;font-size:.82rem;padding:12px 10px;white-space:nowrap}
+nav a:hover{color:#fff;background:var(--blue)}
+.hero{background:linear-gradient(135deg,var(--navy),var(--blue));color:#fff;padding:64px 20px 56px}
+.wrap{max-width:1000px;margin:auto;padding:0 20px}.hero .wrap{padding:0}
+.hero small{color:#9fd8ea;letter-spacing:.08em;text-transform:uppercase}
+.hero h1{font-size:clamp(1.5rem,4vw,2.4rem);line-height:1.25;margin:.4em 0}
+.hero p{max-width:760px;color:#dbe8f3}
+.tag{display:inline-block;border:1px solid #6fb7d0;border-radius:20px;padding:2px 12px;font-size:.85rem;margin:4px 6px 0 0}
+section{padding:48px 0;border-bottom:1px solid var(--borde);scroll-margin-top:44px}
+section:nth-of-type(even){background:var(--gris)}
+h2{color:var(--navy);font-size:1.6rem;margin:0 0 .6em}
+h2 span{background:var(--cel);color:#fff;border-radius:6px;font-size:.9rem;padding:2px 9px;margin-right:10px;vertical-align:middle}
+h3{color:var(--blue);margin:1.6em 0 .4em}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;margin:18px 0}
+.card{background:#fff;border:1px solid var(--borde);border-top:4px solid var(--cel);border-radius:8px;padding:16px}
+.card.g{border-top-color:var(--verde)}.card h4{margin:0 0 6px;color:var(--navy)}
+.big{font-size:1.9rem;font-weight:700;color:var(--navy);line-height:1.2}
+.note{border-left:4px solid var(--cel);background:var(--ok);padding:10px 14px;border-radius:0 6px 6px 0;margin:14px 0;font-size:.95rem}
+.note.w{border-color:#e0a100;background:var(--warn)}.note.b{border-color:#c0392b;background:var(--bad)}
+.src{font-size:.82rem;color:#55627a;margin-top:6px}
+.tw{overflow-x:auto;margin:14px 0;border:1px solid var(--borde);border-radius:8px;background:#fff}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:.9rem}
+th{background:var(--navy);color:#fff;text-align:left;padding:9px 10px}
+td{padding:8px 10px;border-top:1px solid var(--borde);vertical-align:top}
+tr:nth-child(even) td{background:#f8fafc}
+.chart{background:#fff;border:1px solid var(--borde);border-radius:8px;padding:16px;margin:14px 0}
+.chart h4{margin:0 0 10px;color:var(--navy)}
+.br{display:grid;grid-template-columns:minmax(110px,230px) 1fr 82px;gap:8px;align-items:center;margin:6px 0;font-size:.85rem}
+.bt{background:#e6ecf3;border-radius:4px;height:20px}.bt i{display:block;height:100%;border-radius:4px;background:var(--blue)}
+.bt i.c{background:var(--cel)}.bt i.v{background:var(--verde)}.br b{text-align:right}
+.leg{font-size:.8rem;color:#55627a}
+.st{font-size:.75rem;padding:1px 7px;border-radius:10px;background:#e3e8ef;white-space:nowrap}
+ul{padding-left:20px}li{margin:4px 0}
+footer{background:var(--navy);color:#b9cde0;padding:28px 0;font-size:.85rem}
+@media(max-width:600px){.br{grid-template-columns:1fr 70px}.br .bt{grid-column:1/3;order:3}}
+</style>
+</head>
+<body>
+<header><nav id="menu" aria-label="Secciones"></nav></header>
+
+<!-- 1. PORTADA -->
+<div class="hero" id="portada"><div class="wrap">
+<small>Trabajo Integrador · Seguridad e Higiene Laboral</small>
+<h1>Seguridad e Higiene Laboral: análisis de la accidentabilidad en la industria de Misiones y su relación con el sistema de ART (2021-2025)</h1>
+<p>Una revisión documental de los datos de accidentabilidad disponibles para Misiones, su contexto nacional y el funcionamiento del sistema de Aseguradoras de Riesgos del Trabajo, con especial atención a lo que los datos permiten —y no permiten— afirmar.</p>
+<span class="tag">Período 2021-2025</span><span class="tag">Autora: Macarena Soledad Veron</span><span class="tag">Elaboración: 30/09/2026</span>
+<div class="grid">
+<div class="card"><h4>📉 Serie provincial insuficiente</h4>No hay serie anual homogénea de Misiones para 2021-2025.</div>
+<div class="card g"><h4>🏭 Datos nacionales ≠ Misiones</h4>Los indicadores de industria manufacturera son de todo el país.</div>
+<div class="card"><h4>⚖️ Sin causalidad</h4>Ningún dato del trabajo demuestra que una norma, alícuota o ART cambió la siniestralidad.</div>
+</div></div></div>
+
+<main>
+<!-- 2 -->
+<section id="problema"><div class="wrap">
+<h2><span>2</span>Presentación del problema</h2>
+<p>La Seguridad e Higiene Laboral busca prevenir accidentes de trabajo y enfermedades profesionales mediante la identificación de peligros, la evaluación de riesgos y la adopción de medidas de control. La Ley 24.557 establece entre sus objetivos fundamentales la reducción de la siniestralidad a través de la prevención (art. 1, ap. 2, inc. a) y asigna obligaciones preventivas a las ART, los empleadores y los trabajadores (art. 4, ap. 1).</p>
+<p>Se eligió Misiones por ser el ámbito definido en la consigna, y la industria manufacturera por ser el nivel sectorial para el que existen referencias nacionales en el material de partida. La actividad de papel y celulosa se incorpora como caso de interés técnico.</p>
+<div class="note w"><b>Aclaración central:</b> no se dispone de estadísticas específicas de accidentabilidad del subsector papel y celulosa ni de la industria manufacturera de Misiones. El análisis de riesgos de ese subsector es técnico y conceptual, no estadístico.</div>
+<div class="note"><b>Pregunta de investigación:</b> ¿Qué indicadores de accidentabilidad de Misiones están documentados para 2021-2025, en qué medida son comparables con las referencias nacionales de la industria manufacturera y qué puede afirmarse, sobre esa base, acerca de la relación entre prevención, siniestralidad y funcionamiento del sistema de ART?</div>
+<p class="src">Fuente: Informe académico, secciones 1 y 2.</p>
+</div></section>
+
+<!-- 3 -->
+<section id="objetivos"><div class="wrap">
+<h2><span>3</span>Objetivos de la investigación</h2>
+<div class="card g"><h4>Objetivo general</h4>Analizar la accidentabilidad laboral en Misiones durante 2021-2025, contextualizarla con las estadísticas nacionales de la industria manufacturera y estudiar la relación entre prevención, siniestralidad y funcionamiento del sistema de ART.</div>
+<h3>Objetivos específicos</h3>
+<ul><li>Describir la evolución de los indicadores disponibles de accidentabilidad en Misiones.</li><li>Comparar los datos provinciales con referencias nacionales de la industria manufacturera.</li><li>Explicar el funcionamiento del sistema ART.</li><li>Analizar la composición de la cuota y los factores que influyen en las alícuotas.</li><li>Identificar riesgos laborales característicos de la industria de papel y celulosa.</li><li>Examinar la normativa relevante del período 2021-2025.</li><li>Reconocer las limitaciones estadísticas y proponer líneas de mejora para la prevención.</li></ul>
+<p class="src">Fuente: Informe académico, sección 3.</p>
+</div></section>
+
+<!-- 4 -->
+<section id="metodologia"><div class="wrap">
+<h2><span>4</span>Metodología</h2>
+<div class="grid">
+<div class="card"><h4>Tipo</h4>Investigación documental y descriptiva con fuentes secundarias. Sin relevamientos de campo ni entrevistas.</div>
+<div class="card"><h4>Período</h4>2021-2025. Fecha de consulta de fuentes: 30/09/2026.</div>
+<div class="card g"><h4>Fuentes</h4>Estadísticas de la SRT, normativa (Boletín Oficial, argentina.gob.ar, Infoleg), fuentes técnicas secundarias, una nota de prensa (El Territorio) y el «material de partida» sin fuente primaria identificada.</div>
+</div>
+<h3>Criterios</h3>
+<ul><li>Solo se comparan cifras si coinciden ámbito, período, categoría y universo.</li><li>Los datos faltantes no se imputan: se indican como «No disponible» (no son ceros).</li><li>Cada norma se clasifica como verificada, parcial o pendiente de verificación; a las pendientes no se les atribuye contenido.</li><li>Las cifras nacionales no se atribuyen a Misiones ni a papel y celulosa.</li></ul>
+<h3>Por qué no comparar cantidades absolutas</h3>
+<ul><li><b>Población cubierta:</b> más casos pueden reflejar más trabajadores cubiertos, no más riesgo.</li><li><b>Períodos:</b> un acumulado parcial no equivale a un año completo.</li><li><b>Categorías:</b> «casos notificados», «con baja» y «AT y EP» son universos distintos.</li><li><b>Criterios estadísticos:</b> según el informe provisorio 2025 de la SRT, los casos de COVID-19 se excluyeron hasta el 31/12/2023 y desde enero de 2024 se clasifican como enfermedades infecciosas y parasitarias (CIE-10), lo que limita comparar series que cruzan esa fecha.</li></ul>
+<div class="note w"><b>Contradicción entre documentos:</b> la planilla de accidentabilidad indica que no hubo acceso a internet y que ninguna cifra se contrastó con el original, mientras que el informe y la planilla de ART declaran consulta de fuentes oficiales el 30/09/2026. El sitio no resuelve esto: trata las cifras estadísticas como <b>transcriptas, no contrastadas</b>.</div>
+</div></section>
+
+<!-- 5 -->
+<section id="contexto"><div class="wrap">
+<h2><span>5</span>Contexto industrial de Misiones</h2>
+<div class="note b">Los tres documentos <b>no contienen una descripción de la estructura industrial de Misiones</b> ni datos productivos o de empleo por actividad. Por eso no se describen aquí actividades industriales concretas ni empresas.</div>
+<div class="grid">
+<div class="card"><h4>🏭 Industria manufacturera</h4>Nivel de agregación sectorial para el que se dispone de referencias <b>nacionales</b>.</div>
+<div class="card g"><h4>📄 Papel y celulosa</h4>Incorporada como <b>caso de interés técnico</b>: se analizan sus riesgos característicos (sección 7), sin estadísticas de accidentes.</div>
+<div class="card"><h4>🔎 Sin datos por empresa</h4>No existen datos públicos desagregados por empresa en el material. No se atribuyen costos ni accidentes a ninguna empresa.</div>
+</div>
+<p class="src">Fuentes: Informe académico (secciones 1, 6 y 8); planillas «Accidentabilidad» (hoja Limitaciones) y «ART» (hoja Limitaciones).</p>
+</div></section>
+
+<!-- 6 -->
+<section id="estadisticas"><div class="wrap">
+<h2><span>6</span>Estadísticas de accidentabilidad</h2>
+<h3>6.1 Misiones (datos parciales)</h3>
+<div class="note w">Cifras de referencia <b>sin fuente primaria verificada</b> (salvo la nota de prensa de 2023, sin título ni enlace). En la mayoría no se sabe si son casos notificados o con baja. No corresponden a la industria ni a papel y celulosa. Serie anual 2021-2025: <b>No disponible</b>.</div>
+<div class="tw"><table id="t-mis"></table></div>
+<div class="grid">
+<div class="chart" style="margin:0"><h4>Misiones: casos, enero-junio</h4><div id="c-mis"></div><p class="leg">Unidad: casos. 2022: tipo no especificado; 2023: casos notificados (prensa). Comparación con reserva.</p><p class="src">Fuente: planilla «Accidentabilidad», hoja Misiones.</p></div>
+<div class="chart" style="margin:0"><h4>Misiones: casos de mujeres trabajadoras, ene-sep</h4><div id="c-muj"></div><p class="leg">Unidad: casos. Mismo período e indicador; tipo de caso no especificado.</p><p class="src">Fuente: planilla «Accidentabilidad», hoja Misiones.</p></div>
+</div>
+<div class="note w"><b>Discrepancia entre documentos y dentro de los datos:</b> la cifra de ene-sep 2025 (5.525) supera la de «año 2024» (5.258) aunque cubre 9 meses. La planilla advierte que el 5,1 % informado coincide con comparar ambas cifras (5,08 %), lo que implica comparar 12 con 9 meses o que 5.258 sea en realidad ene-sep 2024. <b>No se interpreta ni se presenta como variación válida.</b> Además, el informe no calcula variaciones; la planilla calcula +10,7 % (ene-jun, con reserva) y +18,9 % (mujeres). Se muestran como cálculo de la planilla, no como conclusión.</div>
+
+<h3>6.2 Nacional: industria manufacturera (no es Misiones)</h3>
+<div class="tw"><table id="t-ind"></table></div>
+<p class="src">Fuente: SRT, según la investigación adjunta (documento exacto no consignado); transcripto, sin contrastar. 2023 y 2025: sin datos.</p>
+<div class="note">Verificación aritmética de las planillas: casos con baja / trabajadores cubiertos × 1.000 = 59,5 (2021) y 61,7 (2022), coincidente con el índice publicado. Sugiere que el índice usa casos con baja, sin confirmar la definición oficial. El valor 2024 no puede verificarse por falta de componentes.</div>
+
+<h3>6.3 Nacional: total del sistema (no es Misiones)</h3>
+<div class="tw"><table id="t-sis"></table></div>
+<p class="src">Fuente: SRT, según la investigación adjunta; transcripto, sin contrastar.</p>
+<div class="chart"><h4>Índice de incidencia: industria manufacturera vs. total del sistema (Argentina)</h4><div id="c-ind"></div><p class="leg">Unidad: casos por 1.000 trabajadores cubiertos. Se omite 2023 y 2025 (sin datos). Las series 2021-2022 y 2024 no son consecutivas.</p><p class="src">Fuente: planilla «Accidentabilidad», hoja Indicadores (gráfico 1). Los dos índices pueden no medir el mismo universo; el total del sistema está rotulado «AT y EP en unidades productivas».</p></div>
+
+<h3>6.4 Total del sistema según informe provisorio de la SRT</h3>
+<div class="tw"><table id="t-sri"></table></div>
+<p class="src">Fuente: SRT, informe provisorio enero-diciembre 2025 (copia alojada en un sitio de terceros; original no localizado). Incluye unidades productivas y casas particulares; 2025 provisorio.</p>
+<div class="note w"><b>Contradicción:</b> los trabajadores cubiertos del total del sistema en 2024 son 9.656.664 en la planilla y 10.181.599 (promedio) en el informe. Difieren probablemente en el universo (el informe incluye casas particulares), pero los documentos no lo aclaran; no se unifican.</div>
+</div></section>
+
+<!-- 7 -->
+<section id="riesgos"><div class="wrap">
+<h2><span>7</span>Análisis de riesgos laborales</h2>
+<h3>7.1 Causas de accidentes y enfermedades: Argentina 2024</h3>
+<div class="note w">Porcentajes <b>nacionales</b>. No se aclara si corresponden al total del sistema o a la industria, ni se pueden asignar a Misiones o a papel y celulosa. Los agentes y enfermedades informados suman menos de 100 %: el resto no está detallado y no debe leerse como «otros».</div>
+<div class="grid">
+<div class="chart" style="margin:0"><h4>Forma de ocurrencia (accidentes)</h4><div id="c-f"></div></div>
+<div class="chart" style="margin:0"><h4>Agente material (accidentes)</h4><div id="c-a"></div><p class="leg">Suma informada: 59 %. Resto no detallado: 41 %.</p></div>
+<div class="chart" style="margin:0"><h4>Enfermedades profesionales</h4><div id="c-e"></div><p class="leg">Suma informada: 81 %. Resto no detallado: 19 %.</p></div>
+</div>
+<p class="src">Unidad: % del total. Fuente: SRT, según la investigación adjunta (2024); transcripto, sin contrastar (planilla «Accidentabilidad», hoja Causas y riesgos).</p>
+<h3>7.2 Riesgos técnicos característicos de papel y celulosa</h3>
+<div class="note">Es conocimiento técnico general: <b>no son estadísticas</b> de accidentes ocurridos en Misiones y las medidas son orientativas. La única norma específica verificada vinculada es la Res. SRT 61/2023 (trabajos en altura).</div>
+<div class="tw"><table id="t-rie"></table></div>
+<p class="src">Fuentes: Informe académico (Tabla 5) y planilla «ART», hoja Papel y celulosa.</p>
+</div></section>
+
+<!-- 8 -->
+<section id="art"><div class="wrap">
+<h2><span>8</span>Sistema de ART</h2>
+<p>El sistema se estructura sobre la Ley 24.557 y normas complementarias. Persigue la reducción de la siniestralidad mediante la prevención (art. 1, ap. 2, inc. a). Según el material de partida, también busca reparar daños, rehabilitar y favorecer la recalificación o reinserción laboral (<i>a confirmar en el texto de la ley</i>).</p>
+<h3>Actores y funciones</h3>
+<div class="tw"><table id="t-act"></table></div>
+<h3>Cobertura y prestaciones</h3>
+<ul><li>Cobertura obligatoria para empleadores con trabajadores en relación de dependencia, salvo autoseguro legalmente habilitado (según material de partida; la planilla de ART la marca como verificada con Infoleg, el informe como artículo no verificado).</li><li>Prestaciones en especie: asistencia médica y farmacéutica, rehabilitación, prótesis y ortopedia, recalificación, servicio funerario (a confirmar).</li><li>Prestaciones dinerarias por incapacidad temporaria, permanente o fallecimiento; los montos se actualizan por normas de la SRT (valores: No disponible). Según el art. 11 de la Ley 24.557 son irrenunciables y no pueden cederse ni enajenarse.</li></ul>
+<h3>Relación con la prevención</h3>
+<p>El empleador conserva el deber de cumplir las normas de higiene y seguridad aunque reciba asesoramiento de su ART; la ART promueve la prevención y asesora; los trabajadores participan y reciben capacitación. El Decreto 170/1996 obliga a las ART a brindar asesoramiento y asistencia técnica. El procedimiento de denuncia y su base normativa tienen estado distinto en cada documento (ver sección 10).</p>
+<h3>Programas PESE y PESE-PyMES</h3>
+<ul><li><b>PESE</b> (Res. SRT 363/2016): empleadores con nómina de 50 o más trabajadores y siniestralidad elevada.</li><li><b>PESE-PyMES</b> (Res. SRT 20/2018): empleadores de 11 a 49 trabajadores que superen en 30 % el índice de incidencia de su sector.</li><li>Componentes: Informe General del Empleador (IGE), Plan de Reducción de la Siniestralidad (PRS) con plan de visitas y actualización del Relevamiento General de Riesgos Laborales (RGRL).</li></ul>
+<div class="note w"><b>Contradicción:</b> el informe atribuye la duración de dos años al PESE; la planilla de ART la atribuye a la muestra del PESE-PyMES. No hay datos de qué empleadores de Misiones integran estos programas.</div>
+<p class="src">Fuentes: Informe académico (secciones 9 y 12); planilla «ART», hojas Sistema ART y Prevención.</p>
+</div></section>
+
+<!-- 9 -->
+<section id="alicuotas"><div class="wrap">
+<h2><span>9</span>Alícuotas y costos</h2>
+<div class="note w"><b>No se presentan valores de cápitas, alícuotas, cuotas ni costos</b>, ni series 2021-2025: no se dispuso de datos reales y verificables. No se construyen ejemplos numéricos.</div>
+<h3>Composición conceptual de la cuota</h3>
+<div class="card"><div class="big">C = (N × c) + (M × a)</div>C: cuota mensual · N: trabajadores · c: cápita fija por trabajador · M: masa salarial declarada · a: alícuota porcentual pactada.<br><span class="src">Formulación conceptual del material de partida; no se localizó el texto oficial. Según ese material, la cuota toma como referencia la población y la masa salarial del mes anterior (desfase temporal a confirmar con la SRT).</span></div>
+<h3>Tres conceptos distintos</h3>
+<div class="grid">
+<div class="card"><h4>Alícuota</h4>Solo el porcentaje sobre la masa salarial.</div>
+<div class="card"><h4>Cuota</h4>Importe mensual total en pesos, incluida la cápita.</div>
+<div class="card g"><h4>Costo económico total</h4>Cuota más salarios durante ausencias, reemplazos, daños materiales, interrupciones de producción, investigación de accidentes, sanciones y eventuales litigios. Sin montos disponibles.</div>
+</div>
+<h3>Factores que pueden influir en la cuota (conceptuales, sin ponderaciones)</h3>
+<ul><li>Actividad económica y código CIIU; siniestralidad presunta de la actividad.</li><li>Siniestralidad efectiva del empleador (sin regla automática).</li><li>Cantidad de trabajadores, masa salarial y cápita fija.</li><li>Inflación y evolución salarial: la cuota en pesos puede subir sin cambio de riesgo.</li><li>Características del establecimiento (hipótesis: dos plantas de una misma empresa podrían tener cuotas distintas).</li><li>Permanencia en la misma ART (hipótesis; sin dirección ni magnitud) y condiciones contractuales permitidas.</li><li>Cambios normativos.</li></ul>
+<div class="note"><b>Relación con la gestión preventiva:</b> más accidentes no implican un aumento automático e inmediato de la alícuota. Conceptualmente, menos eventos implican menos prestaciones, ausencias, daños y litigios, pero la magnitud no puede estimarse sin datos.</div>
+<h3>Alícuotas promedio de la SRT</h3>
+<p>Las Res. SRT 34/2025 (30/07/2025, alícuotas promedio por CIIU del año 2024), 9/2023 (año 2021) y 23/2026 (año 2025, para aplicar del 01/04/2026 al 31/03/2027) sirven para calcular la deuda por cuota omitida de empleadores sin cobertura. <b>No equivalen a la alícuota de una ART ni de una empresa de Misiones</b>; sus valores no se reproducen.</p>
+<p class="src">Fuentes: Informe académico (sección 10); planilla «ART», hojas Cuota y alícuota y Factores de costo.</p>
+</div></section>
+
+<!-- 10 -->
+<section id="normativa"><div class="wrap">
+<h2><span>10</span>Marco normativo</h2>
+<div class="note w">Los dos documentos <b>clasifican distinto</b> varias normas. Se muestran ambas clasificaciones sin resolver la diferencia. «Verificada» = existencia y contenido confirmados en fuente oficial; ninguna norma se revisó en su texto consolidado.</div>
+<div class="tw"><table id="t-nor"></table></div>
+<p class="src">Fuentes: Informe académico (Tablas 7 y 8) y planilla «ART», hoja Normativa. Una norma figura en el informe (Ley 27.802 de Modernización Laboral, vigencia informada desde el 06/03/2026, que modifica la Ley 27.348) pero su contenido no fue analizado. No se atribuye a ninguna norma efecto sobre la accidentabilidad. Antes de citar, confirmar vigencia en Boletín Oficial e Infoleg.</p>
+</div></section>
+
+<!-- 11 -->
+<section id="analisis"><div class="wrap">
+<h2><span>11</span>Análisis integrado</h2>
+<div class="grid">
+<div class="card"><h4>📊 Datos</h4>Los datos de Misiones (absolutos, parciales) y los nacionales (con índice por mil trabajadores) difieren en ámbito, agregación y medición. Falta la población cubierta de Misiones, así que <b>no hay comparación válida</b> ni índice provincial.</div>
+<div class="card g"><h4>🛡️ Prevención</h4>El marco verificado muestra que la prevención es objetivo legal y que existen programas focalizados (PESE, PESE-PyMES). Eso describe el diseño del sistema; <b>no se documentó</b> que haya modificado la accidentabilidad de Misiones.</div>
+<div class="card"><h4>💲 Costos</h4>La relación entre siniestralidad y costo es indirecta y depende de varios factores. Sin contratos ni cuotas reales no se puede cuantificar.</div>
+<div class="card g"><h4>⚙️ Riesgos técnicos</h4>Los riesgos de papel y celulosa son insumo para la prevención, no una medida de cuántos accidentes ocurren.</div>
+</div>
+<div class="note b"><b>Sobre la causalidad:</b> no hay evidencia en este trabajo para afirmar que las alícuotas influyan en los accidentes, ni que una norma, empresa, ART o política produjo cambios. Eso requeriría series homogéneas por establecimiento que no están disponibles. El descenso del índice nacional de la industria entre 2022 y 2024 (61,7 a 52,7), por ejemplo, no se interpreta como tendencia ni se explica.</div>
+</div></section>
+
+<!-- 12 -->
+<section id="conclusiones"><div class="wrap">
+<h2><span>12</span>Conclusiones</h2>
+<ul>
+<li><b>Misiones:</b> solo hay cifras parciales de referencia, sin fuente primaria ni categoría verificadas. No es posible describir una evolución 2021-2025; la serie es insuficiente.</li>
+<li><b>Comparación:</b> los indicadores nacionales de la industria manufacturera (2021, 2022 y 2024) tienen otro ámbito y medición; no se pudo hacer una comparación válida con Misiones.</li>
+<li><b>Sistema ART:</b> la Ley 24.557 asigna obligaciones de prevención a empleadores, ART y trabajadores; la SRT controla el sistema.</li>
+<li><b>Cuota y alícuotas:</b> la cuota se entiende como un componente fijo por trabajador más un porcentaje sobre la masa salarial; la relación con la siniestralidad no es automática y no hay datos para cuantificar costos en Misiones.</li>
+<li><b>Papel y celulosa:</b> se identificaron riesgos técnicos relevantes (mecánicos, térmicos, químicos, incendio y explosión, entre otros) sin poder medir su frecuencia.</li>
+<li><b>Normativa:</b> varias normas del período quedaron parcial o pendientemente verificadas, y los documentos difieren en la clasificación de algunas; ninguna se vinculó con la accidentabilidad.</li>
+<li><b>Prevención:</b> es el eje legal del sistema; evaluar su impacto en papel y celulosa en Misiones requiere estadísticas más desagregadas.</li>
+</ul>
+</div></section>
+
+<!-- 13 -->
+<section id="recomendaciones"><div class="wrap">
+<h2><span>13</span>Recomendaciones preventivas</h2>
+<div class="note">Son propuestas del informe, no hechos comprobados.</div>
+<h3>A nivel de establecimiento</h3>
+<ul><li>Priorizar evaluaciones de riesgo para atrapamientos, energías peligrosas (bloqueo-etiquetado), polvo combustible, trabajos en altura y espacios confinados, y registrar los incidentes.</li><li>Sostener la capacitación y la investigación sistemática de accidentes como base de la mejora continua.</li></ul>
+<h3>A nivel de investigación y datos</h3>
+<ul><li>Solicitar a la SRT, por acceso a la información pública, series anuales de Misiones por actividad (CIIU) con población cubierta e índices de incidencia.</li><li>Documentar la fuente primaria y la categoría de cada cifra provincial antes de usarla.</li><li>Verificar en el Boletín Oficial e Infoleg las normas pendientes y revisar el efecto de la Ley 27.802 sobre el régimen de ART.</li><li>Con autorización de las empresas, relevar nómina, masa salarial y siniestralidad propias para analizar costos.</li></ul>
+</div></section>
+
+<!-- 14 -->
+<section id="limitaciones"><div class="wrap">
+<h2><span>14</span>Limitaciones y líneas futuras</h2>
+<div class="tw"><table id="t-lim"></table></div>
+<p class="src">Fuentes: planilla «Accidentabilidad» (hoja Limitaciones), planilla «ART» (hoja Limitaciones) e informe (sección 13.4).</p>
+<h3>Cómo obtener lo que falta</h3>
+<ul><li>Informes y base estadística de la SRT (contrastar período y definiciones).</li><li>Contratos o facturas de ART de empresas, con autorización, para alícuotas, cápitas y cuotas.</li><li>Registros contables internos para el costo económico total.</li><li>Anexos de las Res. SRT 34/2025 y 23/2026 para alícuotas promedio por CIIU (no equivalen a la alícuota de una empresa).</li></ul>
+</div></section>
+
+<!-- 15 -->
+<section id="bibliografia"><div class="wrap">
+<h2><span>15</span>Bibliografía y fuentes</h2>
+<p class="src">Numeración del informe académico. Consulta: 30/09/2026. Las fuentes secundarias deben contrastarse con el Boletín Oficial.</p>
+<h3>A. Fuentes oficiales</h3><ul id="b-of"></ul>
+<h3>B. Fuentes técnicas y secundarias</h3><ul id="b-sec"></ul>
+<h3>C. Otras fuentes citadas en las planillas</h3><ul id="b-pl"></ul>
+<h3>D. Material de partida</h3>
+<ul><li>[M] Investigación documental previa transcripta parcialmente en la consigna (cifras de Misiones, de la industria nacional y lista de normas). Documento completo no disponible.</li><li>El Territorio (prensa, Misiones): nota sobre casos notificados enero-junio 2023. Título, fecha y enlace no consignados.</li></ul>
+</div></section>
+</main>
+
+<footer><div class="wrap">Trabajo Integrador · Seguridad e Higiene Laboral · Macarena Soledad Veron · 2026.<br>Sitio académico basado exclusivamente en el informe y las dos planillas de respaldo del trabajo. Las cifras estadísticas son transcriptas y requieren verificación con las fuentes primarias antes de su uso formal.</div></footer>
+
+<script>
+/* ===== Utilidades ===== */
+const $=id=>document.getElementById(id);
+const f=n=>n.toLocaleString('es-AR',{maximumFractionDigits:1});
+const ND='No disponible';
+function tbl(id,head,rows){$(id).innerHTML='<thead><tr>'+head.map(h=>'<th>'+h+'</th>').join('')+'</tr></thead><tbody>'+rows.map(r=>'<tr>'+r.map(c=>'<td>'+c+'</td>').join('')+'</tr>').join('')+'</tbody>'}
+function bars(id,rows,unit){const m=Math.max(...rows.map(r=>r[1]));$(id).innerHTML=rows.map(r=>`<div class="br"><span>${r[0]}</span><div class="bt"><i class="${r[2]||''}" style="width:${r[1]/m*100}%"></i></div><b>${f(r[1])}${unit}</b></div>`).join('')}
+
+/* ===== Menú ===== */
+const secs=[['portada','Portada'],['problema','Problema'],['objetivos','Objetivos'],['metodologia','Metodología'],['contexto','Contexto'],['estadisticas','Estadísticas'],['riesgos','Riesgos'],['art','Sistema ART'],['alicuotas','Alícuotas y costos'],['normativa','Normativa'],['analisis','Análisis'],['conclusiones','Conclusiones'],['recomendaciones','Recomendaciones'],['limitaciones','Limitaciones'],['bibliografia','Bibliografía']];
+$('menu').innerHTML=secs.map(s=>`<a href="#${s[0]}">${s[1]}</a>`).join('');
+
+/* ===== 6.1 Misiones ===== */
+tbl('t-mis',['Período','Indicador','Valor','Fuente / observación'],[
+['Ene-jun 2022','Casos (tipo no especificado)','3.642','Investigación adjunta; fuente primaria no identificada'],
+['Ene-jun 2023','Casos notificados','4.031','El Territorio (prensa); sin título, fecha ni enlace'],
+['«Año 2024»','Casos (tipo no especificado)','5.258','Alcance por verificar'],
+['Ene-sep 2025','Casos (tipo no especificado)','5.525','Período parcial (9 meses)'],
+['Ene-sep 2024','Casos de mujeres trabajadoras','829','Tipo de caso no especificado'],
+['Ene-sep 2025','Casos de mujeres trabajadoras','986','Mismo período e indicador que el anterior'],
+['Ene-sep 2025','Casos con secuelas incapacitantes','856','Valor 2024 comparable: '+ND],
+['No precisado','Variación informada: casos con días de baja','6,9 %','Sin valores absolutos ni períodos; no recalculable'],
+['Ene-sep 2025 vs. previo no precisado','Variación informada: secuelas incapacitantes','28,3 %','Valor base no consta; no recalculable'],
+['2024-2025 (por revisar)','Variación informada: total de casos','5,1 %','Solo en la planilla; ver advertencia debajo. No válida'],
+['Años completos 2021, 2022, 2023, 2025','Total de casos','—',ND],
+['2021-2025','Índice de incidencia, fallecidos, AT/EP/in itinere, papel y celulosa, por empresa','—',ND+' (falta denominador y desagregación)']]);
+bars('c-mis',[['Ene-jun 2022',3642],['Ene-jun 2023',4031,'c']],'');
+bars('c-muj',[['Ene-sep 2024',829],['Ene-sep 2025',986,'c']],'');
+
+/* ===== 6.2 a 6.4 Nacional ===== */
+tbl('t-ind',['Indicador (industria manufacturera, Argentina)','2021','2022','2024'],[
+['Índice de incidencia (casos por 1.000 trab.)','59,5','61,7','52,7'],['Fallecidos por AT y EP','54','57',ND],['Casos notificados','75.110','82.967',ND],['Casos con baja','67.134','72.708',ND],['Trabajadores cubiertos','1.128.258','1.178.397',ND],['Duración media de bajas (días)',ND,'37,4',ND]]);
+tbl('t-sis',['Indicador (total del sistema, Argentina)','2021','2022','2024'],[
+['Índice de incidencia AT y EP en unidades productivas (por 1.000 trab.)','34,5','37,4','33,3'],['Trabajadores cubiertos','9.075.494','9.489.169','9.656.664'],['Índice de frecuencia (casos por millón de horas)','17',ND,ND],['Duración media de bajas (días)','37,6',ND,'32,8'],['Índice de incidencia de casos mortales (por millón)',ND,ND,'31,5']]);
+tbl('t-sri',['Período','Personas trabajadoras cubiertas (promedio)','Total de casos notificados'],[['Ene-dic 2023','10.323.529','599.376'],['Ene-dic 2024','10.181.599','532.808'],['Ene-dic 2025 (provisorio)','10.094.312','536.140']]);
+bars('c-ind',[['2021 · Industria manufacturera',59.5],['2021 · Total del sistema',34.5,'c'],['2022 · Industria manufacturera',61.7],['2022 · Total del sistema',37.4,'c'],['2024 · Industria manufacturera',52.7],['2024 · Total del sistema',33.3,'c']],'');
+
+/* ===== 7 Causas y riesgos ===== */
+bars('c-f',[['Caídas de personas',23],['Pisadas, choques o golpes por objetos',22,'c'],['Esfuerzos excesivos',10,'v'],['Otras formas',45]],' %');
+bars('c-a',[['Interior del ambiente de trabajo',30],['Medios de transporte terrestre',21,'c'],['Herramientas y utensilios',8,'v']],' %');
+bars('c-e',[['Ruido',45],['Posiciones forzadas y gestos repetitivos',25,'c'],['Sobrecarga del uso de la voz',11,'v']],' %');
+tbl('t-rie',['Riesgo','Consecuencias posibles','Medidas preventivas orientativas'],[
+['Maquinaria, rodillos, prensas y atrapamientos','Atrapamiento, aplastamiento, amputación','Guardas fijas y enclavadas, paradas de emergencia, bloqueo-etiquetado, capacitación'],
+['Cuchillas, corte y bobinado','Cortes, amputaciones, golpes por bobinas','Protección de cuchillas, procedimientos de cambio, manejo mecanizado de bobinas'],
+['Calderas, vapor, presión y altas temperaturas','Quemaduras, explosión, estrés térmico','Inspecciones y ensayos periódicos, válvulas de seguridad, aislación'],
+['Productos químicos de pulpeado, blanqueo y tratamiento','Quemaduras químicas, intoxicación, irritación','Hojas de seguridad, etiquetado, ventilación, duchas de emergencia, EPP'],
+['Polvo combustible','Incendio, deflagración','Orden y limpieza, control de ignición, detección y extinción, plan de emergencia'],
+['Ruido y vibraciones','Hipoacusia, trastornos por vibración','Medición, control en la fuente, protección auditiva, exámenes periódicos'],
+['Manipulación de cargas y ergonomía','Lesiones musculoesqueléticas','Ayudas mecánicas, rediseño de tareas, pausas y rotación'],
+['Autoelevadores y circulación interna','Atropello, vuelco, choque','Habilitación de operadores, circulaciones separadas, señalización'],
+['Trabajos en altura','Caídas','Medidas de la Res. SRT 61/2023, permisos de trabajo, rescate'],
+['Espacios confinados','Asfixia, intoxicación','Medición de atmósfera, permiso de ingreso, vigía y plan de rescate'],
+['Energías peligrosas','Arranque inesperado, electrocución','Procedimiento de bloqueo-etiquetado, verificación de energía cero'],
+['Efluentes (exposición biológica o química)','Infecciones, intoxicación','EPP, higiene, ventilación, detección de gases'],
+['Mantenimiento, limpieza y desatascos','Atrapamiento, cortes, energías inesperadas','Detener, bloquear y verificar antes de intervenir; supervisión']]);
+
+/* ===== 8 Actores ===== */
+tbl('t-act',['Actor','Funciones'],[
+['Empleador','Cumplir las normas de higiene y seguridad y prevenir riesgos (art. 4, ap. 1). Según el material, también declarar trabajadores, pagar la cuota y denunciar siniestros (respaldo parcial).'],
+['ART','Gestionan prestaciones (art. 26, ap. 1); denuncian incumplimientos, informan planes y programas y mantienen registro de siniestralidad por establecimiento (art. 31, ap. 1, incs. a, c y d); asesoramiento y asistencia técnica (Decreto 170/1996).'],
+['SRT','Entidad autárquica (art. 35); controla el cumplimiento de higiene y seguridad y supervisa a las ART (art. 36).'],
+['SSN','Controla la actividad aseguradora; autorizaciones de ART por resolución conjunta SRT-SSN. Alcance exacto de su rol: a confirmar.'],
+['Comisiones Médicas','Creadas por el art. 51 de la Ley 24.241.'],
+['Trabajadores','Participar en las acciones preventivas y recibir capacitación e información.']]);
+
+/* ===== 10 Normativa ===== */
+const V='Verificada',P='Parcial',X='Pendiente';
+tbl('t-nor',['Norma','Fecha / referencia','Contenido confirmado','Estado (informe)','Estado (planilla ART)'],[
+['Disposición SRT 1/2021','BO 11/08/2021 (según planilla)','Planilla: incorpora texto al art. 20 del Anexo I de la Res. SRT 86/2019 (cuotas omitidas). Informe: sin confirmar.',X,V],
+['Res. Conjunta SRT-SSN 2/2022','BO 02/12/2022','Informe: autoriza a una ART mutual a operar. Planilla: contenido no confirmado.',V,X],
+['Res. Conjunta SRT-SSN 1/2023','BO 06/12/2023','Existencia confirmada; parte resolutiva no leída (informe).',P,X],
+['Res. SRT 61/2023','05/12/2023; BO 06/12/2023','Aprueba las Medidas de Seguridad en Altura.',V,V],
+['Res. SRT 34/2024','s/d','Fuente secundaria: alícuotas promedio 2023 para cuota omitida.',X,P],
+['Res. SRT 60/2024','s/d','Sin confirmar.',X,X],
+['Res. Conjunta SRT-SSN 1/2025','s/d','Sin confirmar.',X,X],
+['Res. SRT 34/2025','30/07/2025','Alícuotas promedio 2024 por CIIU (deuda por cuota omitida). Fuentes secundarias.',P,P],
+['Ley 24.557','1995','Norma base; arts. 1, 4, 11, 26, 31, 35 y 36 confirmados por citas.',P,P],
+['Ley 26.773','2012 (según planilla)','Contenido no revisado.',X,X],
+['Ley 27.348','2017 (según planilla)','Complementaria de la Ley 24.557; contenido detallado no verificado.',P,X],
+['Decreto 717/1996','BO 12/07/1996','Planilla: procedimiento de denuncia (extracto, fuente secundaria). Informe: contenido no confirmado.',X,P],
+['Res. SRT 46/2018','31/05/2018 (según planilla)','Sin confirmar. No confundir con la Res. SRT 46/2022.',X,X],
+['Res. SRT 363/2016 (PESE)','09/09/2016','Crea el Programa de Empleadores con Siniestralidad Elevada.',V,P],
+['Res. SRT 20/2018 (PESE-PyMES)','09/03/2018; BO 13/03/2018','Programa para PyMES con siniestralidad elevada.',V,V],
+['Res. SRT 79/2024','28/11/2024; BO 02/12/2024','Plan Estratégico 2024-2027 de la SRT (solo en planilla).','—',V],
+['Res. SRT 69/2024','15/10/2024','Marco de tecnologías emergentes en prevención; solo considerandos (solo en planilla).','—',P],
+['Res. SRT 23/2026','BO hacia 19/05/2026','Alícuotas promedio 2025; fuera del período (solo en planilla).','—',P]]);
+
+/* ===== 14 Limitaciones ===== */
+tbl('t-lim',['Tema','Qué no está disponible'],[
+['Serie de Misiones','No hay serie anual completa y homogénea 2021-2025; solo ene-jun 2022, ene-jun 2023, «año 2024» y ene-sep 2025.'],
+['Comparabilidad 2024-2025','No se verifica si «año 2024» y ene-sep 2025 son comparables.'],
+['Tipo de casos','Salvo 2023 («notificados»), no se sabe si son AT, EP, in itinere, reingresos, notificados o con baja.'],
+['Denominador','Sin trabajadores cubiertos de Misiones: no se puede calcular el índice de incidencia provincial.'],
+['Papel y celulosa y empresas','Sin datos desagregados por actividad ni por empresa.'],
+['Datos nacionales','Industria: sin 2023 y 2025; 2024 solo con índice. Total del sistema: datos parciales.'],
+['Causas 2024','No se aclara el universo (sistema o industria); los porcentajes detallados suman menos de 100 %.'],
+['ART','Sin datos por aseguradora, cobertura provincial, inspecciones ni siniestralidad por ART: no se puede evaluar su desempeño ni causalidad.'],
+['Alícuotas y costos','Sin alícuotas, cápitas, cuotas, masa salarial ni costos reales.'],
+['Verificación','Cifras transcriptas sin contrastar; varias normas pendientes y con clasificación distinta entre documentos.']]);
+
+/* ===== 15 Bibliografía ===== */
+const li=(t,u)=>'<li>'+t+(u?' <a href="'+u+'" target="_blank" rel="noopener">enlace</a>':'')+'</li>';
+$('b-of').innerHTML=[
+['[1] SRT. Informe Anual de Accidentabilidad Laboral 2017 – Resumen ejecutivo. 2018.','https://www.argentina.gob.ar/sites/default/files/informe_anual_de_accidentabilidad_laboral_-_resumen_ejecutivo_-_ano_2017.pdf'],
+['[2] SRT. Informe provisorio de accidentabilidad laboral, enero a diciembre de 2025. Marzo de 2026 (copia en sitio de terceros).','https://www.elsol.com.ar/wp-content/uploads/2026/04/Informe-provisorio-de-accidentabilidad-laboral.pdf'],
+['[3] SRT. Resolución 20/2018 (texto). Argentina.gob.ar.','https://www.argentina.gob.ar/normativa/nacional/307746/texto'],
+['[4] Argentina.gob.ar. Programas de prevención (PESE).','https://www.argentina.gob.ar/node/128529'],
+['[5] Argentina.gob.ar. Programa PESE-PyMES.','https://www.argentina.gob.ar/node/127740'],
+['[6] SRT. Actualización normativa, segundo semestre 2022.','https://www.argentina.gob.ar/sites/default/files/actualizacion_normativa_2022_-2.pdf'],
+['[7] Argentina.gob.ar. Listado de normas de la Ley 24.557 y SRT.','https://www.argentina.gob.ar/normativa/nacional/norma-27971/normas-modifican'],
+['[8] SRT. Actualización normativa, segundo semestre 2023.','https://www.argentina.gob.ar/sites/default/files/actualizacion_normativa_2023-2.pdf'],
+['[9] Boletín Oficial. Resolución Conjunta SRT-SSN 1/2023. 06/12/2023.','https://www.boletinoficial.gob.ar/detalleAviso/primera/300095/20231206?anexos=1'],
+['[10] Boletín Oficial. Resolución SRT 61/2023. 06/12/2023.','https://www.boletinoficial.gob.ar/#!DetalleNorma/300086/20231206'],
+['[11] Boletín Oficial. Resolución SRT 90/2021. 23/12/2021.','https://www.boletinoficial.gob.ar/#!DetalleNorma/254984/20211223'],
+['[12] Boletín Oficial. Resolución SRT 46/2022. 12/08/2022.','https://www.boletinoficial.gob.ar/#!DetalleNorma/268500/20220812'],
+['[13] Argentina.gob.ar. Normas que modifican o complementan la Ley 27.348.','https://www.argentina.gob.ar/normativa/nacional/norma-272119/normas-modifican'],
+['[20] Resolución Conjunta SSN-SRT 2/2022 (30/11/2022), copia en 100% Seguro.','https://100seguro.com.ar/wp-content/uploads/2022/12/RES_CONJ_SSN_SRT_2_2022.pdf'],
+['[21] Boletín Oficial. Resolución SRT 35/2025. 14/08/2025.','https://www.boletinoficial.gob.ar/pdf/aviso/primera/329458/20250814'],
+['[22] Boletín Oficial. Resolución SRT 7/2024. 24/01/2024.','https://www.boletinoficial.gob.ar/pdf/aviso/primera/302070/20250605'],
+['[23] Boletín Oficial. Resolución SRT 55/2024 (considerandos sobre el art. 11 de la Ley 24.557). 30/08/2024.','https://www.boletinoficial.gob.ar/pdf/aviso/primera/313183/20250520']].map(x=>li(x[0],x[1])).join('');
+$('b-sec').innerHTML=[
+['[14] SRT. Actualización normativa, primer semestre 2023 (Res. SRT 9/2023).','https://www.argentina.gob.ar/sites/default/files/actualizacion_normativa_2023-1.pdf'],
+['[15] Blog del Contador. Resolución (SRT) 34/2025. 01/08/2025.','https://siap.blogdelcontador.com.ar/?p=72800'],
+['[16] Microjuris – Al Día Argentina. Resolución SRT 23/2026. 19/05/2026.','https://aldiaargentina.microjuris.com/2026/05/19/legislacion-riesgos-del-trabajo-nuevos-parametros-de-referencia-para-el-calculo-de-deudas-por-falta-de-afiliacion-al-sistema/'],
+['[17] Blog del Contador. Resolución (SRT) 61/2023. 06/12/2023.','https://siap.blogdelcontador.com.ar/?p=46287'],
+['[18] CPCE CABA. La Ley 27.802 de Modernización Laboral y su reglamentación. Junio de 2026.','https://tributum.news/wp-content/uploads/2026/07/PPT-1-Reforma-Laboral-CPCE-CABA-26-Junio-2026.pdf'],
+['[19] Consejo Profesional de Salta. Extracto de la Res. S.Emp. 148.','https://www.consejosalta.org.ar/wp-content/uploads/SE-148.pdf']].map(x=>li(x[0],x[1])).join('');
+$('b-pl').innerHTML=[
+['Boletín Oficial. Disposición SRT 1/2021 (11/08/2021).','https://www.boletinoficial.gob.ar/detalleAviso/primera/247981/20210811'],
+['Boletín Oficial. Resolución SRT 79/2024 – Plan Estratégico 2024-2027 (02/12/2024).','https://www.boletinoficial.gob.ar/detalleAviso/primera/317574/1'],
+['Boletín Oficial. Resolución SRT 69/2024 – tecnologías emergentes.','https://www.boletinoficial.gob.ar/detalleAviso/primera/315671/1'],
+['Boletín Oficial. Resolución SRT 20/2018 – PESE-PyMES (13/03/2018).','https://www.boletinoficial.gob.ar/detalleAviso/primera/180086/20180313'],
+['Infoleg. Ley 24.557 – texto actualizado.','https://servicios.infoleg.gob.ar/infolegInternet/anexos/25000-29999/27971/texact.htm'],
+['Justia Argentina. Decreto 717/1996 (fuente secundaria).','https://docs.argentina.justia.com/federales/decretos/decreto-n-717-1996-jul-12-1996.pdf'],
+['Blog del Contador. Resolución SRT 34/2024 – ficha (secundaria).','https://siap.blogdelcontador.com.ar/?p=54143'],
+['Blog del Contador. Resolución SRT 23/2026 – nota (secundaria).','https://siap.blogdelcontador.com.ar/?p=84719'],
+['SSN. Sitio institucional (pendiente de consulta).','https://www.argentina.gob.ar/ssn']].map(x=>li(x[0],x[1])).join('');
+</script>
+</body>
+</html>
